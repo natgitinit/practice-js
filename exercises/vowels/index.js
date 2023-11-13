@@ -29,7 +29,7 @@ function vowels(str) {
         // helper method .include()
         if(checkVowels.includes(char)) {
             count++;
-        }
+        } 
     }
 
     return count; 
