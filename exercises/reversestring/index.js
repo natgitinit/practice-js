@@ -17,9 +17,9 @@ function reverse(str) {
     let newStr = "";
     for (let character of str) {
         newStr = character + newStr;
-        debugger;
+        // debugger;
     }
-    // return newStr;
+    return newStr;
     // JS Reduce() 
     // debugger;
     // return str.split('').reduce((rev, char) => char + rev, '')
